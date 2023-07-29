@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0 7rem;
+}
+.bodyy {
+  background-color: #171616;
+}
+header {
+  width: 100%;
+  height: 25rem;
+  background-image: url(./assets/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  margin-left: 3.5rem;
+  padding-top: 2.2rem;
+  display: flex;
+}
+.logo_header {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.25rem;
+}
+.logo_theatre {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  padding-top: 3.25rem;
+  margin-left: 0.2rem;
+}
+.ravayat {
+  float: right;
+  margin-right: 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+  font-weight: 400;
+  width: 25rem;
+  text-align: right;
+  margin-top: 10rem;
+}
+.body1 {
+  margin-top: 2rem;
+  padding: 0 3rem;
+}
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35rem;
+  height: 178px;
+  position: relative;
+}
+.header {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+.under_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.125rem;
+  line-height: 2.3rem;
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+.cards {
+  display: block;
+}
+.row {
+  justify-content: space-between;
+  margin-top: 3rem;
+  display: flex;
+  width: 100%;
+}
+.row2 {
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  display: flex;
+  width: 100%;
+}
+.card {
+  width: 21rem;
+  height: 29rem;
+  position: relative;
+}
+.card-bg {
+  width: 21rem;
+  height: 29rem;
+
+  background: #252525;
+  border-radius: 35px;
+}
+.top {
+  width: 283px;
+  height: 79px;
+  left: 28px;
+  top: 12px;
+  position: absolute;
+}
+.card_title {
+  left: 166px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  color: #c6d2cf;
+  font-size: 24px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 44.73px;
+  letter-spacing: 4.8px;
+  word-wrap: break-word;
+  width: max-content;
+}
+.card_paragraph {
+  left: 0px;
+  top: 45px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 33.55px;
+  letter-spacing: 0.81px;
+  word-wrap: break-word;
+}
+.price-bg {
+  width: 339px;
+  height: 79px;
+  left: 0px;
+  top: 106px;
+  position: absolute;
+  background: #171616;
+}
+.price-tag {
+  left: 210px;
+  top: 7px;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 59.64px;
+  letter-spacing: 1.44px;
+  word-wrap: break-word;
+}
+.price-description {
+  width: 136px;
+  height: 27px;
+  left: 62px;
+  top: 26px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 37.28px;
+  letter-spacing: 0.9px;
+  word-wrap: break-word;
+}
+.middle {
+  width: 272px;
+  height: 134px;
+  left: 49px;
+  top: 207px;
+  position: absolute;
+}
+.middle-title {
+  width: 86px;
+  height: 24px;
+  left: 186px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 33.55px;
+  letter-spacing: 0.81px;
+  word-wrap: break-word;
+}
+.description {
+  width: 191px;
+  height: 134px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 33.55px;
+  letter-spacing: 0.81px;
+  word-wrap: break-word;
+}
+.button {
+  width: 217px;
+  height: 36px;
+  left: 61px;
+  top: 392px;
+  position: absolute;
+}
+.button-bg {
+  width: 217px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: rgba(176.57, 176.13, 176.13, 0.5);
+}
+.button-text {
+  width: 215px;
+  height: 56px;
+  left: 1px;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 33.55px;
+  letter-spacing: 0.81px;
+  word-wrap: break-word;
+}
+.about {
+  background-color: #252525;
+  padding: 0;
+  width: 100%;
+  height: 55rem;
+  margin-top: 6.5rem;
+  display: flex;
+}
+.about-text {
+  width: 34rem;
+  height: 25.8rem;
+  background-color: rgba(23, 22, 22, 1);
+  margin-left: 3.5rem;
+  margin-top: 7rem;
+  border-radius: 0.9rem;
+  -webkit-border-radius: 0.9rem;
+  -moz-border-radius: 0.9rem;
+  -ms-border-radius: 0.9rem;
+  -o-border-radius: 0.9rem;
+  position: relative;
+  font-weight: 400;
+}
+.content {
+  width: 510px;
+  height: 384.74px;
+  left: 16px;
+  top: 15px;
+  position: absolute;
+}
+.about-title {
+  width: 317px;
+  height: 27.78px;
+  left: 182px;
+  top: 0px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 24px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 44.73px;
+  letter-spacing: 3.12px;
+  word-wrap: break-word;
+}
+.about-description {
+  width: 510px;
+  left: 0px;
+  top: 40.74px;
+  position: absolute;
+  text-align: right;
+}
+.text-white {
+  color: white;
+  font-size: 20px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 43.28px;
+  letter-spacing: 3.3px;
+  word-wrap: break-word;
+}
+.text-blue {
+  color: #82e6e0;
+  font-size: 20px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 43.28px;
+  letter-spacing: 3.3px;
+  word-wrap: break-word;
+}
+.slogan {
+  width: 543px;
+  height: 174px;
+  position: relative;
+  margin-top: 6rem;
+  margin-left: 3.5rem;
+}
+.slogan-bg {
+  width: 543px;
+  height: 171px;
+  left: 0px;
+  top: 3px;
+  position: absolute;
+  background: #171616;
+  border-radius: 15px;
+}
+.slogan-content {
+  width: 543px;
+  height: 174px;
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 44.73px;
+  letter-spacing: 3.12px;
+  word-wrap: break-word;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.right {
+  margin-left: auto;
+  margin-top: 7rem;
+  margin-right: 3.5rem;
+}
+.videos {
+  width: 540px;
+  height: 720px;
+  position: relative;
+}
+.video-top {
+  width: 360px;
+  height: 418px;
+  left: 180px;
+  top: 0px;
+  position: absolute;
+  background-image: url(./assets/Rectangle\ 8.png);
+}
+.playbtn-bg {
+  width: 54px;
+  height: 53px;
+  left: 153px;
+  top: 182px;
+  position: absolute;
+}
+.playbtn {
+  width: 52.31px;
+  height: 51.34px;
+  left: 0.84px;
+  top: 0.83px;
+  position: absolute;
+  background-image: url(./assets/play-circle.png);
+}
+.video-text {
+  left: 195px;
+  top: 28px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 33.55px;
+  letter-spacing: 2.34px;
+  word-wrap: break-word;
+}
+.video-bottom {
+  width: 360px;
+  height: 418px;
+  left: 0px;
+  top: 302px;
+  position: absolute;
+  background-image: url(./assets/Rectangle\ 9.png);
+}
+.footer {
+  width: 1280px;
+  height: 206px;
+  position: relative;
+}
+.footer-content {
+  width: 1280px;
+  height: 206px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #171616;
+}
+.footer-title {
+  left: 1098px;
+  top: 7px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 32px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 700;
+  line-height: 59.64px;
+  letter-spacing: 4.16px;
+  word-wrap: break-word;
+}
+.phone {
+  width: 323px;
+  height: 22px;
+  left: 912px;
+  top: 74px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 37.28px;
+  letter-spacing: 2.6px;
+  word-wrap: break-word;
+}
+.email {
+  width: 360px;
+  left: 875px;
+  top: 109px;
+  position: absolute;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-family: Franklin Gothic Medium;
+  font-weight: 400;
+  line-height: 37.28px;
+  letter-spacing: 2.6px;
+  word-wrap: break-word;
+}
+.copyright {
+  left: 35px;
+  top: 158px;
+  position: absolute;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.icons {
+  position: relative;
+  width: 12.625rem;
+  height: 2.125rem;
+  display: flex;
+  float: left;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
