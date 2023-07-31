@@ -503,6 +503,11 @@
   }
 }
 @media screen and (max-width: 1200px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
   header {
     /* width: 100%; */
     /* height: 25rem; */
@@ -621,7 +626,7 @@
     display: block;
   }
   .about-text {
-    width: 25rem;
+    width: 20rem;
     margin: 0 auto;
     height: 25.8rem;
     background-color: rgba(23, 22, 22, 1);
@@ -636,7 +641,7 @@
     font-weight: 400;
   }
   .content {
-    width: 25rem;
+    width: 20rem;
     height: 25.8rem;
     /* left: 1rem; */
     /* top: 0.94rem; */
@@ -645,7 +650,7 @@
   .about-title {
     width: max-content;
     height: 1.73625rem;
-    left: 6rem;
+    left: 1rem;
     top: 0px;
     position: absolute;
     text-align: right;
@@ -658,7 +663,7 @@
     word-wrap: break-word;
   }
   .about-description {
-    width: 22.5rem;
+    width: 17rem;
     left: 0px;
     top: 3.48rem;
     position: absolute;
@@ -674,7 +679,7 @@
     word-wrap: break-word;
   }
   .slogan {
-    width: 25rem;
+    width: 20rem;
     margin: 0 auto;
     height: 10.875rem;
     position: relative;
@@ -682,7 +687,7 @@
     /* margin-left: 3.5rem; */
   }
   .slogan-bg {
-    width: 25rem;
+    width: 20rem;
     height: 10.875rem;
     left: 0px;
     top: 3px;
@@ -691,7 +696,7 @@
     border-radius: 15px;
   }
   .slogan-content {
-    width: 25rem;
+    width: 20rem;
     height: 10.875rem;
     left: 0px;
     position: absolute;
@@ -845,6 +850,9 @@
     float: left;
     justify-content: space-between;
     margin-left: 2rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
+  }
+  .body1 {
+    padding: 0;
   }
 }
